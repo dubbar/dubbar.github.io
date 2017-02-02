@@ -7,3 +7,22 @@ comments: true
 ---
 This is my first post, dont know how it goes 
 ###Python highlighting
+
+~~~python
+
+print('hi')
+#comment
+
+
+~~~
+
+
+~~~ python
+
+print('hi')
+if 12>3:
+    print('yes')
+#this is comment
+
+   
+~~~ 
