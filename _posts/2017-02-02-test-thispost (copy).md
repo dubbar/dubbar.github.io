@@ -7,9 +7,3 @@ comments: true
 ---
 This is my first post, dont know how it goes 
 ###Python highlighting
-
-~~~Python
-print('hi')
-#comment
-
-~~~
