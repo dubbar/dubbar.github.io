@@ -12,10 +12,6 @@ Say we have two matrices or arrays a and b
 Then dot product is 
 
 
-
-This is my first post, dont know how it goes 
-###Python highlighting
-
 ~~~ python
 import numpy as np
 a=np.array([1,2,3])
