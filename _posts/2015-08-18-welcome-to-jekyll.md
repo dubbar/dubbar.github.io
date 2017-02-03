@@ -18,8 +18,11 @@ This is my first post, dont know how it goes
 
 ~~~ python
 import numpy as np
-a=[1,2,3 \
-
+a=np.array([1,2,3])
+b=np.array([4,5,6])
+print(np.dot(a,b))
+~~~ 
+> 32 <br />
 
    
 ~~~ 
