@@ -17,6 +17,8 @@ import numpy as np
 a=np.array([1,2,3])
 b=np.array([4,5,6])
 print(np.dot(a,b))
+if 3>2:
+  print('hi')
 ~~~ 
 > 32 <br />
 
