@@ -3,7 +3,7 @@ layout: post
 title: Dot product without numpy
 <!-- date: '2015-08-18 15:07:19 -->'
 categories:
-  - tutorial
+  - python
 comments: true
 published: true
 ---
