@@ -1,19 +1,25 @@
 ---
 layout: post
-title:  "Welcome to myblog myway  :)"
-<!-- date:   2015-08-18 15:07:19 -->
-categories: [tutorial]
+title: Dot product without numpy
+<!-- date: '2015-08-18 15:07:19 -->'
+categories:
+  - tutorial
 comments: true
+published: true
 ---
+Using numpy it's simple task
+Say we have two matrices or arrays a and b
+Then dot product is 
+
+
+
 This is my first post, dont know how it goes 
 ###Python highlighting
 
 ~~~ python
+import numpy as np
+a=[1,2,3 \
 
-print('hi')
-if 12>3:
-    print('yes')
-#this is comment
 
    
 ~~~ 
