@@ -23,7 +23,22 @@ if 3>2:
 > 32 <br />
 
    
-~~~ 
+~~~ python
+def matrixMultiply(m1,m2):
+    prodM = []
+    for i in range(len(m1)): #for each row of m1
+        row = m1[i]
+        newRow = []
+        for j in range(len(m2[0])): #for each column of m2
+            y = 0
+            for x in range(len(row)):
+                rowEl = row[x]
+                colEl = m2[x][j]
+                y += rowEl*colEl
+            newRow.append(y)
+        prodM.append(newRow)
+    return prodM
+~~~
 > hi <br />
 this is test post 
 
