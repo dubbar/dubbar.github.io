@@ -24,20 +24,29 @@ if 3>2:
 
    
 ~~~ python
-def matrixMultiply(m1,m2):
-    prodM = []
-    for i in range(len(m1)): #for each row of m1
-        row = m1[i]
-        newRow = []
-        for j in range(len(m2[0])): #for each column of m2
-            y = 0
-            for x in range(len(row)):
-                rowEl = row[x]
-                colEl = m2[x][j]
-                y += rowEl*colEl
-            newRow.append(y)
-        prodM.append(newRow)
-    return prodM
+import numpy as np
+def matrixmul(a,b):
+    r1,c1=a.shape
+    r2,c2=b.shape
+    if c1!=r2:
+        print('Rows of 1st matrix is not equal to columns of second matrix')
+    else:
+        l3=[]
+        for k in range (r1):
+            l2=[]
+            for j in range (c2):
+                l1=0
+                for i in range (c1):
+                    l1+=a[k,i]*b[i,j]
+                l2.append(l1)
+            l3.append(l2)
+        print(l3)
+    return 
+    
+ a=np.matrix([[1,2,3],\
+             [4,5,6]])
+b=np.matrix([[1],[2],[3],[4]])   
+matrixmul(a,b)
 ~~~
 > hi <br />
 this is test post 
