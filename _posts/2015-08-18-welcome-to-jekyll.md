@@ -43,15 +43,14 @@ def matrixmul(a,b):
         print(l3)
     return 
     
- a=np.matrix([[1,2,3],\
-             [4,5,6]])
-b=np.matrix([[1],[2],[3],[4]])   
+a=np.matrix([[1,2,3],\
+            [4,5,6]])
+b=np.matrix([[1],[2],[3]])   
 matrixmul(a,b)
 ~~~
-> hi <br />
-this is test post 
+> [[14], [32]]
 
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+
 
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
