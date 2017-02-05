@@ -28,6 +28,11 @@ print(np.dot(a,b))
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
 
+
+[[14]
+ [32]]
+{: .notice}
+
 > [[14]
  [32]] 
 
