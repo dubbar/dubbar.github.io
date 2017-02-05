@@ -14,13 +14,14 @@ Then dot product is
 
 ~~~ python
 import numpy as np
-a=np.array([1,2,3])
-b=np.array([4,5,6])
+a=np.matrix([[1,2,3],\
+            [4,5,6]])
+b=np.matrix([[1],[2],[3]]) 
 print(np.dot(a,b))
-if 3>2:
-  print('hi')
+
 ~~~ 
-> 32 <br />
+> [[14]
+ [32]] 
 
    
 ~~~ python
@@ -42,12 +43,11 @@ def matrixmul(a,b):
             l3.append(l2)
         print(l3)
     return 
+    
 a=np.matrix([[1,2,3],\
             [4,5,6]])
 b=np.matrix([[1],[2],[3]])   
-matrixmul(a,b)/
-for i in range
-
+matrixmul(a,b)
 
 ~~~
 > [[14], [32]]
