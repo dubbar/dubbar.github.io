@@ -7,6 +7,11 @@ categories:
 comments: true
 published: true
 ---
+Todo dot product using numpy is simple task, 
+whereas if you desire to do without using numpy just follow the proceeding code 
+
+<!--more-->
+
 Using numpy it's simple task
 Say we have two matrices or arrays a and b
 Then dot product is 
