@@ -42,7 +42,6 @@ def matrixmul(a,b):
             l3.append(l2)
         print(l3)
     return 
-    
 a=np.matrix([[1,2,3],\
             [4,5,6]])
 b=np.matrix([[1],[2],[3]])   
