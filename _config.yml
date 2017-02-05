@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: rakend
-  avatar: leonids-logo.png
+  #avatar: leonids-logo.png
   job: "blog"
   bio: "collection of numerical methods"
   email:
